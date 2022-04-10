@@ -4,6 +4,7 @@ import 'package:service_locator/user.dart';
 
 void main() {
   runApp(MyApp());
+  registerDependencies();
 }
 
 void registerDependencies() {
